@@ -1,0 +1,1 @@
+"C:\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\Arajin\Documents\Unreal Projects\SteamExpirement\SteamExpirement.uproject" -game -WINDOWED -VADEBUG -ResX=600 -ResY=480 -WinX=0 -WinY=20 -log
