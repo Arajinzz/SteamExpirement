@@ -10,8 +10,14 @@ public class SteamExpirement : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(
 			new string[] {
-				"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay",
-				"OnlineSubsystem", "OnlineSubsystemNull", "OnlineSubsystemSteam",
+				"Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay"
+			}
+		);
+
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+            {
+				"OnlineSubsystem", "OnlineSubsystemNull", "OnlineSubsystemSteam", "OnlineSubsystemUtils"
 			}
 		);
 	}
