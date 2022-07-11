@@ -14,3 +14,4 @@ Saved
 *.xcworkspace
 Plugins/*/Binaries/*
 Plugins/*/Intermediate/*
+unreal_launcher.bat
