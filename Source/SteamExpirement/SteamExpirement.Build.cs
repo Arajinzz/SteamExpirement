@@ -15,8 +15,7 @@ public class SteamExpirement : ModuleRules
 		);
 
 		PrivateDependencyModuleNames.AddRange(
-			new string[]
-            {
+			new string[] {
 				"OnlineSubsystem", "OnlineSubsystemNull", "OnlineSubsystemSteam", "OnlineSubsystemUtils"
 			}
 		);
